@@ -1,0 +1,33 @@
+<! DOCTYPE html >
+< html  lang = " en " >
+< đầu >
+< meta  charset = " UTF-8 " >
+< title > Tiêu đề </ title >
+< script >
+hàm  giai thừa ( num )
+{
+if ( num == 0 )
+trả về  0 ;
+khác  nếu ( num == 1 )
+trả về  1 ;
+
+khác
+{
+var  kết quả  = num ;
+trong khi ( num > 1 )
+{
+result  =  result * ( num - 1 ) ;
+num - ;
+}
+trả về  kết quả ;
+}
+}
+var  num = prompt ( 'Nhập số:' , '' ) ;
+var  result  =  factorial ( num ) ;
+alert ( 'Giai thừa của'  + num +  'là'  +  result  +  '.' ) ;
+</ script >
+</ head >
+< body >
+
+</ body >
+</ html >

@@ -1,0 +1,36 @@
+<! DOCTYPE html >
+< html  lang = " en " >
+< đầu >
+< meta  charset = " UTF-8 " >
+< title > Tiêu đề </ title >
+< script >
+var  names  = new  Array ( 'James' ,  'Kevin' ,  'Brad' ) ;
+function  change_names ( tên )
+{
+tên [ 0 ] =  'Stuart' ;
+}
+function  display_names ( )
+{
+tài liệu . writeln ( '<H3> Danh sách sinh viên: </H3>' ) ;
+tài liệu . write ( '<UL>' ) ;
+  for ( vari = 0 ;  i < names . length ;  i ++ )
+  {
+  tài liệu . write ( '<LI>'  +  tên [ i ] +  '</LI>' ) ;
+  }
+  tài liệu . ghi ( '</UL>' ) ;
+change_names ( tên ) ;
+tài liệu . write ( '<H3> Danh sách các tên sinh viên đã thay đổi: </H3>' ) ;
+tài liệu . write ( '<UL>' ) ;
+  for ( vari = 0 ;  i < names . length ;  i ++ )
+  {
+  tài liệu . write ( '<LI>'  +  tên [ i ] +  '</LI>' ) ;
+  }
+  tài liệu . ghi ( '</UL>' ) ;
+}
+display_names ( tên ) ;
+</ script >
+</ head >
+< body >
+
+</ body >
+</ html >

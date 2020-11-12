@@ -1,0 +1,26 @@
+<! DOCTYPE html >
+< html  lang = " en " >
+< đầu >
+< meta  charset = " UTF-8 " >
+< title > Tiêu đề </ title >
+< script >
+var  products  =  new  Array ( 2 ) ;
+products [ 0 ]  =  new  Array ( 'Màn hình' ,  '236.75' ) ;
+products [ 1 ]  =  new  Array ( 'Bàn phím' ,  '45 .50 ' ) ;
+tài liệu . write ( '<TABLE border = 1> <TR> <TH> Tên </TH> <TH> Giá </TH> </TR>' ) ;
+  for ( var  i = 0 ;  i < products . length ;  i ++ )
+  {
+  tài liệu . write ( '<TR>' ) ;
+    for ( var  j = 0 ;  j < products [ i ] . length ;  j ++ )
+    {
+    tài liệu . write ( '<TD>'  +  products [ i ] [ j ]  +  '</TD>' ) ;
+    }
+    tài liệu . ghi ( '</TR>' ) ;
+  }
+  tài liệu . write ( '</TABLE>' ) ;
+</ script >
+</ head >
+< body >
+
+</ body >
+</ html >
